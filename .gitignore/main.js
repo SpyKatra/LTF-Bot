@@ -16,7 +16,7 @@ bot.on('ready', function () {
 
 bot.on('message', function (message){
     if (message.content === 'Facebook') {
-        message.channel.send('**Lache un j´aime, https://www.facebook.com/lateamfraternels**')
+        message.channel.send('**Lache un j´aime, https://www.facebook.com/lateamfraternels** @here')
     }
 })
 
